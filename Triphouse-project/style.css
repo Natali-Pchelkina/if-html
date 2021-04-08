@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1440px;
+    max-height: 569px;
+    background:#fff;
+    text-align: center;
+}
+.wrapper h2{
+    font-size: 40px;
+    padding-top: 120px;  
+}
+.wrapper-line{
+    width: 100px;
+    height: 4px;
+    background: #F5BD41;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 88.33px;
+    display: inline-block;
+}
+.wrapper-offer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 14%;
+}
+.wrapper-item img{
+    width: 83.33px;
+    height: 83.33px;
+}
+.wrapper-item p{
+    padding-top: 52.17px;
+    padding-bottom: 122px;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 400;
+    color: #383838;
+}
+@media (max-width: 500px) {
+    .wrapper .wrapper-offer {
+    display: flex;
+    flex-direction: column;
+    }
+  .wrapper-item img {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    width: 17%;
+    height: 17%;
+  }
+}
+@font-face {
+    font-family: Robobo;
+    src: url(../img/Roboto-Light.ttf);
+}
