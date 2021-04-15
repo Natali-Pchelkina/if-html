@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 @font-face {
+
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -73,6 +74,7 @@ body{
     width: 83.33px;
     height: 83.33px;
 }
+
 .wrapper-item p {
     font-style: normal;
     padding-top: 52.17px;
@@ -181,5 +183,6 @@ footer{
         display: none;
     }
 }
+
 
 
